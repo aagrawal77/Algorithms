@@ -1,4 +1,4 @@
-####### BUBBLE-SORT #######
+# Binary Search to use with already sorted lists
 
 # Open the CSV File - Pay attention to the path of the file
 fileToOpen = open("/Users/sguler/Desktop/cities.csv")
@@ -8,18 +8,6 @@ citiesDoc = fileToOpen.read()
 
 # Split the citiesDoc line by line and add every line item to the citiesList
 citiesList = citiesDoc.splitlines()
-
-# Nested for loops to iterate thru the citiesList to sort and replace the cities as an ascending order
-for i in range(len(citiesList)):
-    for k in range(len(citiesList)-1):
-        # check each item with the item next to it, and swap if out of order
-        if ((citiesList[k] > citiesList[k+1])):
-            citiesList[k+1], citiesList[k] = citiesList[k], citiesList[k+1]
-
-# For loop to iterate and print the citiesList items
-for city in citiesList:
-    print(city, end = ", ")
-print()
 
 ####### BINARY SEARCH #######
 
