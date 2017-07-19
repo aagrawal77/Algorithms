@@ -33,7 +33,7 @@ firstPoint = 0
 lastPoint = len(citiesList)-1
 
 # Loop thru the citiesList by updating the midPoint
-while (firstPoint <= lastPoint and found == False):
+while ():
 
     midPoint = int((firstPoint + lastPoint) / 2)
 
