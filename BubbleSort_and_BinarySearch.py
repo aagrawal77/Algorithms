@@ -13,7 +13,7 @@ citiesList = citiesDoc.splitlines()
 for i in range(len(citiesList)):
     for k in range(len(citiesList)-1):
         # check each item with the item next to it, and swap if out of order
-        
+        # ADD YOUR CODE HERE
         
 
 # For loop to iterate and print the citiesList items
@@ -33,21 +33,21 @@ firstPoint = 0
 lastPoint = len(citiesList)-1
 
 # Loop thru the citiesList by updating the midPoint
-while ():
+while ():   # ADD YOUR CODE HERE
 
     midPoint = int((firstPoint + lastPoint) / 2)
 
     # If the city found
-    if ():
+    if ():  # ADD YOUR CODE HERE
         
         
 
     # Else if the city is less than the citiesList midPoint in an alphabetic order
-    elif ():
+    elif ():    # ADD YOUR CODE HERE
         
 
     # Else if the city is greater than the citiesList midPoint in an alphabetic order
-    elif ():
+    elif ():    # ADD YOUR CODE HERE
         
 
 # If the city is found, then print the city name. Else, print an error message!
