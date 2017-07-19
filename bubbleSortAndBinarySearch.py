@@ -13,18 +13,18 @@ citiesList = citiesDoc.splitlines()
 for i in range(len(citiesList)):
     for k in range(len(citiesList)-1):
         # check each item with the item next to it, and swap if out of order
-        if ((citiesList[k] > citiesList[k+1])):
-            citiesList[k+1], citiesList[k] = citiesList[k], citiesList[k+1]
+        
+        
 
 # For loop to iterate and print the citiesList items
 for city in citiesList:
-    print(city, end=", ")
-print()
+    print(city, end=" ")
+print()     # Prints an empty line
 
 ####### BINARY SEARCH #######
 
 # Prompt user to enter a city - Pay attention the the lower/higher case letters
-searchKey = input("What city are you looking for?: ")
+searchKey = input("Which city are you looking for?: ")
 
 # Initialize variables
 foundCity = ""
@@ -38,17 +38,17 @@ while (firstPoint <= lastPoint and found == False):
     midPoint = int((firstPoint + lastPoint) / 2)
 
     # If the city found
-    if (searchKey == citiesList[midPoint]):
-        found = True
-        foundCity = citiesList[midPoint]
+    if ():
+        
+        
 
     # Else if the city is less than the citiesList midPoint in an alphabetic order
-    elif (searchKey < citiesList[midPoint]):
-        lastPoint = midPoint - 1
+    elif ():
+        
 
     # Else if the city is greater than the citiesList midPoint in an alphabetic order
-    elif (searchKey > citiesList[midPoint]):
-        firstPoint = midPoint + 1
+    elif ():
+        
 
 # If the city is found, then print the city name. Else, print an error message!
 if (found == True):
